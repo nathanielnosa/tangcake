@@ -42,8 +42,7 @@
     top:50%;
 }
 
-
-@media screen and(max-width:520px){
+@media(max-width:502px){
     /* banner slider */
 #banner .carousel-inner img{
     height: 50vh;
