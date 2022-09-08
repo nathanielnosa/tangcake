@@ -62,7 +62,15 @@
     filter: grayscale(0%);
 }
 
-
+#story{
+    background: var(--main-color);
+    color: #fff;
+    padding: 5rem;
+}
+#story .container-width{
+    width: 70%;
+    margin: 0 auto;
+}
 
 
 
