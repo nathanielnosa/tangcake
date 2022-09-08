@@ -10,6 +10,18 @@
     --btn:#310202;
 }
 
+.btn-primary{
+    background: var(--btn);
+    outline: none;
+    border: none;
+}
+.btn-primary:focus,.btn-primary:hover{
+    background: var(--btn);
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
 /* navbar */
 
 .navbar{
@@ -41,6 +53,18 @@
     opacity: 0.5;
     top:50%;
 }
+
+.card img{
+    transition: all .5s ease;
+    filter: grayscale(100%);
+}
+.card:hover img{
+    filter: grayscale(0%);
+}
+
+
+
+
 
 @media(max-width:502px){
     /* banner slider */
